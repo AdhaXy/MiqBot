@@ -3,8 +3,6 @@ import requests
 import os
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
-# ====== CONFIG ======
-BOT_TOKEN = "BOT_TOKEN"
 OLLAMA_URL = "http://localhost:11434/api/generate"
 MODEL = "llama3"
 # ====================
